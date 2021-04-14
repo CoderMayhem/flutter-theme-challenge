@@ -35,6 +35,7 @@ class _SceneryState extends State<Scenery> {
           Positioned(
             bottom: 0,
             child: Container(
+              color: myTheme.currentThemeData.primaryColorLight,
               height: _textAreaHeight,
               width: constraints.maxWidth,
               child: const SomeText(),
@@ -44,6 +45,7 @@ class _SceneryState extends State<Scenery> {
             bottom: 0,
             right: 0,
             child: Container(
+              color: myTheme.currentThemeData.primaryColor,
               width: constraints.maxWidth,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
